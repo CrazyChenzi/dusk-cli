@@ -1,0 +1,34 @@
+{
+  "name": "dusk-cli",
+  "version": "1.0.0",
+  "description": "写一个自己cli脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacklisten/dusk-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blacklisten/dusk-cli/issues"
+  },
+  "homepage": "https://github.com/blacklisten/dusk-cli#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
+  },
+  "bin": {
+    "dusk": "./bin/dusk",
+    "dusk-add": "./bin/dusk-add",
+    "dusk-delete": "./bin/dusk-delete",
+    "dusk-list": "./bin/dusk-list",
+    "dusk-create": "./bin/dusk-create"
+  }
+}
